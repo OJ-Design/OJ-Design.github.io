@@ -67,13 +67,19 @@ section {
 }
 
 
-nav ul {
+#index nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
     display: flex;
     justify-content: space-between;
+    margin: 0 14.22822917vw; /* Adjust the margin value as needed */
 }
+
+#index nav ul li {
+    list-style: none;
+}
+
 
 /* distibute project iconsicons */
 #projects ul {
