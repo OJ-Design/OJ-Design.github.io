@@ -23,4 +23,5 @@ body {
     background-color: #262332;
     color: #ffffff;
     font-family: 'FuturaPTBook', sans-serif; /* Use one of the defined font families */
+    font-weight: normal; /* Ensure consistent font weight for the entire document */
 }
