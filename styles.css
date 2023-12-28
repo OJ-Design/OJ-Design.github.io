@@ -58,6 +58,14 @@ section {
     margin: 0 auto; /* Center the icon horizontally if needed */
 }
 
+#index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the section takes up the full height of the viewport */
+}
+
 
 nav ul {
     list-style-type: none;
