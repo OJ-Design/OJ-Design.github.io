@@ -49,7 +49,7 @@ section {
     margin: 0 auto; /* Center the icon horizontally if needed */
 }
 
-#projects img {
+.round-icon {
     width: 17.91661458vw;
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure block-level display */
