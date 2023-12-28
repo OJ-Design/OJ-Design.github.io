@@ -10,11 +10,11 @@ document.addEventListener('DOMContentLoaded', function () {
             const targetElement = document.getElementById(targetId);
 
             if (targetElement) {
-                // Replace the current URL with the target section's ID
-                history.replaceState(null, null, `#${targetId}`);
-                
-                // Scroll to the target section
+                // Scroll to the target section with smooth behavior
                 targetElement.scrollIntoView({ behavior: 'smooth' });
+
+                // Use history.replaceState to update the URL without triggering a page reload
+                history.replaceState(null, null, `?section=${targetId}`);
             }
         });
     });
