@@ -42,3 +42,11 @@ body {
     display: block; /* Ensure block-level display */
     margin: 0 auto; /* Center the icon horizontally if needed */
 }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
