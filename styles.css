@@ -92,4 +92,16 @@ section {
     margin-right: 20px; /* Add spacing between list items if desired */
 }
 
+/* styles.css */
+
+#copyright {
+    font-family: 'FuturaPTLight';
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+    text-align: center;
+    padding: 5 px;
+}
+
 
