@@ -41,6 +41,12 @@ section {
     margin-bottom: 20px;
 }
 
+.round-icon {
+    width: 17.91661458vw;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure block-level display */
+    margin: 0 auto; /* Center the images horizontally if needed */
+}
 
 #index img {
     width: 15.4vw; /* Set the icon width as a percentage of the viewport width */
@@ -49,12 +55,6 @@ section {
     margin: 0 auto; /* Center the icon horizontally if needed */
 }
 
-.round-icon {
-    width: 17.91661458vw;
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure block-level display */
-    margin: 0 auto; /* Center the images horizontally if needed */
-}
 
 nav ul {
     list-style-type: none;
@@ -63,3 +63,16 @@ nav ul {
     display: flex;
     justify-content: space-between;
 }
+
+/* distibute project iconsicons */
+#projects ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox to arrange items horizontally */
+}
+
+#projects li {
+    margin-right: 20px; /* Add spacing between list items if desired */
+}
+
+
