@@ -10,21 +10,21 @@ html {
 
 @font-face {
     font-family: 'FuturaPTBold';
-    src: url('fonts/FuturaPTBold.otf') format('opentype');
+    src: url('Fonts/FuturaPTBold.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'FuturaPTBook';
-    src: url('fonts/FuturaPTBook.otf') format('opentype');
+    src: url('Fonts/FuturaPTBook.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'FuturaPTLight';
-    src: url('fonts/FuturaPTLight.otf') format('opentype');
+    src: url('Fonts/FuturaPTLight.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
