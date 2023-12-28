@@ -96,24 +96,24 @@ section {
 
 /* this is the upwards arrow */
 #back-to-top {
-    position: fixed;
-    bottom: 12.43722222vh; /* Position 12.43722222% from the bottom edge */
-    display: none;
-    border: none; /* Remove border */
-    background: none; /* Remove background */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
-    outline: none; /* Remove outline */
-    outline: 0;   
-    
+  position: fixed;
+  bottom: 12.43722222vh;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Move back by half of its width */
+  display: none;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
 }
 
 #back-to-top img {
-    width: 4.341145833vw;
-    height: auto; /* Maintain aspect ratio */
-    outline: none;
-    outline: 0;
+  width: 4.341145833vw;
+  height: auto;
+  outline: none;
 }
+
 
 
 #copyright {
