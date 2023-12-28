@@ -28,3 +28,10 @@ body {
     font-size: 1.09vw; /* Set the font size as a percentage of the viewport width */
     line-height: 1.34vw;
 }
+
+#index img {
+    width: 15.4vw; /* Set the icon width as a percentage of the viewport width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure block-level display */
+    margin: 0 auto; /* Center the icon horizontally if needed */
+}
