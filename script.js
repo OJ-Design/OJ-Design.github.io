@@ -1,12 +1,6 @@
 // script.js
 
 document.addEventListener('DOMContentLoaded', function () {
-    // Replace the current URL with one without a hash
-    history.replaceState(null, null, window.location.pathname);
-
-    // Scroll to the 'index' section
-    document.getElementById('index').scrollIntoView();
-
     // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
@@ -16,6 +10,10 @@ document.addEventListener('DOMContentLoaded', function () {
             const targetElement = document.getElementById(targetId);
 
             if (targetElement) {
+                // Replace the current URL with the target section's ID
+                history.replaceState(null, null, `#${targetId}`);
+                
+                // Scroll to the target section
                 targetElement.scrollIntoView({ behavior: 'smooth' });
             }
         });
