@@ -36,6 +36,12 @@ body {
     line-height: 1.34vw;
 }
 
+section {
+    height: 100vh;
+    margin-bottom: 20px;
+}
+
+
 #index img {
     width: 15.4vw; /* Set the icon width as a percentage of the viewport width */
     height: auto; /* Maintain aspect ratio */
