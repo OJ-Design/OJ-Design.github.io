@@ -49,6 +49,13 @@ section {
     margin: 0 auto; /* Center the icon horizontally if needed */
 }
 
+#projects img {
+    width: 17.91661458vw;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure block-level display */
+    margin: 0 auto; /* Center the images horizontally if needed */
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
