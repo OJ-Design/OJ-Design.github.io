@@ -4,6 +4,9 @@
     image-rendering: crisp-edges;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 @font-face {
     font-family: 'FuturaPTBold';
