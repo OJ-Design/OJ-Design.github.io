@@ -2,15 +2,17 @@ document.addEventListener("DOMContentLoaded", function () {
   var backToTopButton = document.getElementById("back-to-top");
 
   window.addEventListener("scroll", function () {
-    var scrollDistance = window.scrollY;
+    var scrollPosition = window.scrollY;
     var viewportHeight = window.innerHeight;
+    
+    // Calculate opacity based on the scroll position and viewport height
+    var opacity = Math.min(scrollPosition / viewportHeight, 1);
 
-    // Adjust the arrow visibility based on scroll distance and viewport height
-    backToTopButton.style.display = scrollDistance < viewportHeight ? "block" : "none";
+    // Set the opacity of the back-to-top button
+    backToTopButton.style.opacity = opacity;
 
-    // Adjust the arrow opacity based on the scroll distance from the top of the second viewport
-    var opacity = Math.min(1, (scrollDistance - viewportHeight) / viewportHeight);
-    backToTopButton.style.opacity = opacity.toFixed(2);
+    // Toggle the button's visibility based on the calculated opacity
+    backToTopButton.style.display = opacity > 0 ? "block" : "none";
   });
 
   // Add click event listener to the back-to-top button
