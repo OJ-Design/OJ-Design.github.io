@@ -103,12 +103,14 @@ section {
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margin */
     outline: none; /* Remove outline */
+    outline: 0;
 }
 
 #back-to-top img {
     width: 4.341145833vw;
     height: auto; /* Maintain aspect ratio */
     outline: none;
+    outline: 0;
 }
 
 
