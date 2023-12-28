@@ -2,4 +2,6 @@ body {
     background-color: #262332;
     color: #ffffff;
     font-family: 'Futura PT Book';
+    font-weight: normal; /* Explicitly set to normal */
+    font-style: normal; /* Explicitly set to normal */
 }
