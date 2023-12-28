@@ -108,9 +108,8 @@ section {
 #back-to-top img {
     width: 4.341145833vw;
     height: auto; /* Maintain aspect ratio */
+    outline: none;
 }
-
-
 
 
 #copyright {
