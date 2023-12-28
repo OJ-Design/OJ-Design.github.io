@@ -104,6 +104,8 @@ section {
     margin: 0; /* Remove margin */
     outline: none; /* Remove outline */
     outline: 0;
+    -webkit-tap-highlight-color: transparent;
+    
 }
 
 #back-to-top img {
