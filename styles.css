@@ -95,10 +95,16 @@ section {
 /* this is the upwards arrow */
 #back-to-top {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 12.43722222vh; /* Position 12.43722222% from the bottom edge */
+    right: 14.22822917vw; /* Position 14.22822917% from the right edge */
     display: none;
 }
+
+#back-to-top img {
+    width: 4.341145833vw;
+    height: auto; /* Maintain aspect ratio */
+}
+
 
 
 #copyright {
