@@ -32,7 +32,7 @@ html {
 body {
     background-color: #262332;
     color: #ffffff;
-    font-family: 'FuturaPTBook', sans-serif; /* Use one of the defined font families */
+    font-family: 'FuturaPTBook'; /* Use one of the defined font families */
     font-weight: normal; /* Ensure consistent font weight for the entire document */
     letter-spacing: -0.01em; /* -10 * 1/1000em */
     font-size: 1.09vw; /* Set the font size as a percentage of the viewport width */
