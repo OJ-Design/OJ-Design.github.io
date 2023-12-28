@@ -1,7 +1,26 @@
+@font-face {
+    font-family: 'FuturaPTBold';
+    src: url('fonts/FuturaPTBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaPTBook';
+    src: url('fonts/FuturaPTBook.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaPTLight';
+    src: url('fonts/FuturaPTLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: #262332;
     color: #ffffff;
-    font-family: 'FuturaPT-Book';
-    font-weight: normal; /* Explicitly set to normal */
-    font-style: normal; /* Explicitly set to normal */
+    font-family: 'FuturaPTBook', sans-serif; /* Use one of the defined font families */
 }
