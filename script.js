@@ -2,11 +2,15 @@ document.addEventListener("DOMContentLoaded", function () {
   var backToTopButton = document.getElementById("back-to-top");
 
   window.addEventListener("scroll", function () {
-    if (window.scrollY > window.innerHeight) {
-      backToTopButton.style.display = "block";
-    } else {
-      backToTopButton.style.display = "none";
-    }
+    var scrollDistance = window.scrollY;
+    var viewportHeight = window.innerHeight;
+
+    // Adjust the arrow visibility based on scroll distance and viewport height
+    backToTopButton.style.display = scrollDistance < viewportHeight ? "block" : "none";
+
+    // Adjust the arrow opacity based on the scroll distance from the top of the second viewport
+    var opacity = Math.min(1, (scrollDistance - viewportHeight) / viewportHeight);
+    backToTopButton.style.opacity = opacity.toFixed(2);
   });
 
   // Add click event listener to the back-to-top button
