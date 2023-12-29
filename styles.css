@@ -69,7 +69,7 @@ section {
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure block-level display */
     margin: 0 auto; /* Center the icon horizontally if needed */
-    margin-bottom: 133.5px;
+    margin-bottom: 10vh; /* Adjust as needed for responsive spacing */
 }
 
 #index {
@@ -104,7 +104,6 @@ section {
 #index nav {
     text-align: center;
     
-/*
 .round-icon {
     width: 17.91661458vw;
     height: auto; /* Maintain aspect ratio */
@@ -154,4 +153,3 @@ section {
     text-align: center;
     padding: 5px;
 }
-*/
