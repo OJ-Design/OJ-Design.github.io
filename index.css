@@ -92,3 +92,16 @@ body {
   align-items: flex-start;
   display: flex;
 }
+
+/* code for the profile section!! */
+/* !!! */
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  gap: 133px;
+  height: 1080px;
+  padding: 134.0px 273.2px;
+  width: 1920px;
+}
