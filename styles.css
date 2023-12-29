@@ -99,6 +99,10 @@ section {
     color: white;
     border: 2px solid white; /* Specify the border width, style, and color on hover */
 }
+
+/* Center-align the navigation list */
+#index nav {
+    text-align: center;
     
 /*
 .round-icon {
