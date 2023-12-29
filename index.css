@@ -51,19 +51,16 @@ body {
   white-space: nowrap;
 }
 
-.index ._shape_button {
-  border: 1px solid;
-  border-color: var(--smashed-pumpkin);
-  border-radius: 41.67px;
-  height: 84px;
-  width: 277px;
-}
 
 .index .special_button {
   background-color: black;
   border-radius: 41.67px;
   height: 84px;
   position: relative;
+  width: 277px;
+  border: 1px solid;
+  border-color: var(--smashed-pumpkin);
+  height: 84px;
   width: 277px;
 }
 
