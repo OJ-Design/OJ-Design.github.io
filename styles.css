@@ -60,6 +60,8 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transform: scale(0.75); /* Scale down to 75% */
+    transform-origin: center center; /* Ensure scaling is centered *
 }
 
 
