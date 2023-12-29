@@ -105,9 +105,9 @@ section {
 /* Flex container for the navigation list */
 #index nav {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
     justify-content: center;
 }
+
 
 
 
