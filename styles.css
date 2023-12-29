@@ -102,9 +102,11 @@ section {
     border: 2px solid white; /* Specify the border width, style, and color on hover */
 }
 
-/* Center-align the navigation list */
+/* Flex container for the navigation list */
 #index nav {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    justify-content: center;
 }
 
 
