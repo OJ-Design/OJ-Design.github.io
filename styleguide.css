@@ -5,10 +5,10 @@
  
   --font-family-futurapt-book: "FuturaPT-Book", Helvetica;
 }
-.futurapt-book-normal-smashed-pumpkin-24px {
+.orange_button_style {
   color: var(--smashed-pumpkin);
   font-family: var(--font-family-futurapt-book);
   font-size: var(--font-size-m);
   font-style: normal;
-  font-weight: 100;
+  font-weight: 400;
 }
