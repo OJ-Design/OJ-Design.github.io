@@ -82,8 +82,9 @@ section {
 /* New styles for navigation buttons */
 .special-button {
     display: inline-block;
-    padding: 1.7vw; 
-    font-size: 1.25vw; /* Set the font size as a percentage of the viewport width */
+    padding: 32px; 
+    font-size: 24px; /* Set the font size as a percentage of the viewport width */
+    margin-right: 273.182px;
     letter-spacing: 0.7em;
     text-decoration: none;
     text-transform: uppercase; /* Convert text to uppercase */
