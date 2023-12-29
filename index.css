@@ -93,6 +93,6 @@ body {
 }
 
 .index ._button_flex_align {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
 }
