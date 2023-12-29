@@ -64,8 +64,8 @@ section {
     transform-origin: center center; /* Ensure scaling is centered *
 }
 
-#index img {
-    width: 343.999px;
+#index img { /* Maintain aspect ratio */
+    width: 343.999px; /* Maintain aspect ratio */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure block-level display */
     margin: 0 auto; /* Center the icon horizontally if needed */
