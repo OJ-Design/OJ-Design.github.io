@@ -31,6 +31,14 @@ html {
     font-style: normal;
 }
 
+/* Remove default styles for links */
+.special-button a,
+.special-button a:link,
+.special-button a:visited {
+    text-decoration: none;
+    color: inherit; /* Inherit color from the parent */
+}
+
 body {
     background-color: #262332;
     color: #ffffff;
