@@ -6,7 +6,6 @@ body {
 }
 
 .container-center {
-  background-color: black;
   display: flex;
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
@@ -14,6 +13,7 @@ body {
 }
 
 .index {
+  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center; /* Center horizontally */
