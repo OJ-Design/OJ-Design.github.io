@@ -42,13 +42,15 @@ body {
   min-width: 276px;
 }
 
-.index .profile_text_button {
-  left: 40px;
+.index .profile_text_button,
+.index .project_text_button,
+.index .contact_text_button {
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
   letter-spacing: 16.80px;
   line-height: 15px;
   position: absolute;
   text-align: center;
-  top: 33px;
   white-space: nowrap;
 }
 
@@ -63,16 +65,6 @@ body {
   width: 277px;
 }
 
-.index .project_text_button {
-  left: 32px;
-  letter-spacing: 16.80px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 34px;
-  white-space: nowrap;
-}
-
 .index .special_button {
   color: white;
   border-radius: 41.67px;
@@ -80,16 +72,6 @@ body {
   margin-top: -0.5px;
   position: relative;
   width: 277px;
-}
-
-.index .contact_text_button {
-  left: 28px;
-  letter-spacing: 16.80px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 33px;
-  white-space: nowrap;
 }
 
 .index ._button_flex_align {
