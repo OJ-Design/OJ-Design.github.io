@@ -56,14 +56,9 @@ body {
     line-height: 1.34vw;
 }
 
-.section {
-    width: 100%;
-    box-sizing: border-box; /* Include padding and border in the width calculation */
-    max-width: 600px; /* Set a maximum width if needed */
-    margin: 0 auto; /* Center the section horizontally */
-    padding: 20px; /* Adjust the padding based on your design */
-    border: 1px solid #ccc; /* Add borders or other styling as needed */
-    margin-bottom: 20px; /* Add margin to the bottom for spacing between sections */
+section {
+    height: 100vh;
+    margin-bottom: 20px;
 }
 
 .round-icon {
