@@ -83,3 +83,14 @@ section {
     align-items: center;
     height: 100vh; /* This ensures the section takes up the full height of the viewport */
 }
+
+/* distibute project icons */
+#projects ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox to arrange items horizontally */
+}
+
+#projects li {
+    margin-right: 20px; /* Add spacing between list items if desired */
+}
