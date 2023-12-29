@@ -64,14 +64,6 @@ section {
     transform-origin: center center; /* Ensure scaling is centered *
 }
 
-
-.round-icon {
-    width: 17.91661458vw;
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure block-level display */
-    margin: 0 auto; /* Center the images horizontally if needed */
-}
-
 #index img {
     width: 343.999px;
     height: auto; /* Maintain aspect ratio */
@@ -98,7 +90,7 @@ section {
     color: #F26A38; /* Olivier Orange */
     background-color: transparent;
     border: 2px solid #F26A38; /* Olivier Orange */
-    border-radius: 100px;
+    border-radius: 1000px;
     transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
@@ -106,8 +98,14 @@ section {
     color: white;
     border: 2px solid white; /* Specify the border width, style, and color on hover */
 }
-
-
+    
+/*
+.round-icon {
+    width: 17.91661458vw;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure block-level display */
+    margin: 0 auto; /* Center the images horizontally if needed */
+}
 
 /* distibute project icons */
 #projects ul {
@@ -151,3 +149,4 @@ section {
     text-align: center;
     padding: 5px;
 }
+*/
