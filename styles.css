@@ -83,7 +83,6 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* This ensures the section takes up the full height of the viewport */
 }
 
 /* New styles for navigation buttons */
