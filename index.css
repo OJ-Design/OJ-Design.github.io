@@ -13,9 +13,9 @@ body {
 }
 
 .index {
-  align-items: flex-end;
   display: flex;
   flex-direction: column;
+  align-items: center; /* Center horizontally */
   gap: 133px;
   height: 1080px;
   padding: 134.0px 273.2px;
@@ -38,15 +38,15 @@ body {
 
 .index ._button {
   height: 83px;
-  justify-content: center;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
   min-width: 276px;
 }
 
 .index .profile_text_button,
 .index .project_text_button,
 .index .contact_text_button {
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%);
   line-height: 84px; /* Center vertically */
   text-align: center;
   white-space: nowrap;
@@ -57,9 +57,6 @@ body {
   border-color: var(--smashed-pumpkin);
   border-radius: 41.67px;
   height: 84px;
-  left: 0;
-  position: absolute;
-  top: 0;
   width: 277px;
 }
 
@@ -67,7 +64,6 @@ body {
   color: white;
   border-radius: 41.67px;
   height: 84px;
-  margin-top: -0.5px;
   position: relative;
   width: 277px;
 }
