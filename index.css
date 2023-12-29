@@ -1,0 +1,101 @@
+/* screen - index */
+
+.index {
+  align-items: flex-end;
+  background-color: #262332;
+  display: flex;
+  flex-direction: column;
+  gap: 133px;
+  height: 1080px;
+  padding: 134.0px 273.2px;
+  width: 1920px;
+}
+
+.index .website_-homepage-scroll_-logo {
+  align-self: center;
+  height: 595px;
+  margin-right: 10.28px;
+  object-fit: cover;
+  width: 296px;
+}
+
+.index ._button-container {
+  gap: 273px;
+  min-width: 1374px;
+}
+
+.index ._button {
+  height: 83px;
+  justify-content: center;
+  min-width: 276px;
+}
+
+.index .profile_-container {
+  border-radius: 41.67px;
+  height: 84px;
+  margin-top: -0.5px;
+  position: relative;
+  width: 277px;
+}
+
+.index .profile_text_button {
+  left: 40px;
+  letter-spacing: 16.80px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 33px;
+  white-space: nowrap;
+}
+
+.index ._shape_button {
+  border: 1px solid;
+  border-color: var(--smashed-pumpkin);
+  border-radius: 41.67px;
+  height: 84px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 277px;
+}
+
+.index .project_-container {
+  border-radius: 41.67px;
+  height: 84px;
+  margin-top: -0.5px;
+  position: relative;
+  width: 277px;
+}
+
+.index .project_text_button {
+  left: 32px;
+  letter-spacing: 16.80px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 34px;
+  white-space: nowrap;
+}
+
+.index .overlap-group1 {
+  border-radius: 41.67px;
+  height: 84px;
+  margin-top: -0.5px;
+  position: relative;
+  width: 277px;
+}
+
+.index .place {
+  left: 28px;
+  letter-spacing: 16.80px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 33px;
+  white-space: nowrap;
+}
+
+.index ._button-1 {
+  align-items: flex-start;
+  display: flex;
+}
