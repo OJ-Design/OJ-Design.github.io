@@ -1,9 +1,6 @@
-I have issues with my layout - I want each section to work essentiaally as a static portfolio page, centered in the view port, responsive with an ideal side margins and minimum allowed top and bottom margins:
-/*Thing to fix: JS scrolling issue, alignment of the back to top arrow*/
-
 * {
-    image-rendering: -webkit-optimize-contrast; /* Safari and Chrome */
-    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
 }
 
@@ -32,56 +29,51 @@ html {
     font-style: normal;
 }
 
-/* Remove default styles for links */
 .special-button a,
 .special-button a:link,
 .special-button a:visited {
     text-decoration: none;
-    color: inherit; /* Inherit color from the parent */
+    color: inherit;
 }
 
 body {
     background-color: #262332;
     color: #ffffff;
-    font-family: 'FuturaPTBook'; /* Use one of the defined font families */
-    font-weight: normal; /* Ensure consistent font weight for the entire document */
-    letter-spacing: -0.01em; /* -10 * 1/1000em */
+    font-family: 'FuturaPTBook';
+    font-weight: normal;
+    letter-spacing: -0.01em;
     font-size: 21px;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-section {
-    height: 100vh;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
-#index img { /* Maintain aspect ratio */
-    width: 343.999px; /* Maintain aspect ratio */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure block-level display */
-    margin: 0 auto; /* Center the icon horizontally if needed */
-    margin-bottom: 133.5px; /* Adjust as needed for responsive spacing */
+section {
+    background: black;
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#index img {
+    width: 343.999px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 133.5px;
 }
 
 #index {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
-/* New styles for navigation buttons */
 .special-button {
     display: inline-block;
-    padding: 20px; /* Use absolute padding value */
-    font-size: 18px; /* Use absolute font size value */
+    padding: 20px;
+    font-size: 18px;
     letter-spacing: 0.7em;
     text-decoration: none;
     text-transform: uppercase;
@@ -97,29 +89,22 @@ section {
     border: 2px solid white;
 }
 
-/* Flex container for the navigation list */
 #index nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
-/* Spacing between buttons using margin */
 .special-button:not(:last-child) {
-    margin-right: 20px; /* Use absolute margin value */
+    margin-right: 20px;
 }
 
-/* Center-align the middle button */
 .special-button:nth-child(2) {
     margin-right: 0;
 }
 
-/* Adjustments for smaller screens */
 @media only screen and (max-width: 768px) {
     .special-button {
-        padding: 12px; /* Adjust padding for smaller screens */
-        font-size: 14px; /* Adjust font size for smaller screens */
-        margin-right: 12px; /* Adjust margin for smaller screens */
+        padding: 12px;
+        font-size: 14px;
+        margin-right: 12px;
     }
 }
-
