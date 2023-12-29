@@ -66,7 +66,6 @@ section {
 
 #index nav {
     text-align: center;
-    position: relative;
 }
 
 .special-button {
@@ -88,23 +87,10 @@ section {
     border: 2px solid white;
 }
 
-/* Place the first button 20px to the left of the middle button */
-.special-button:first-child {
-    position: absolute;
-    left: calc(50% - 548.939px);
-    transform: translateX(-50%);
-}
-
-/* Center the middle button horizontally */
-.special-button:nth-child(2) {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-/* Place the last button 20px to the right of the middle button */
-.special-button:last-child {
-    position: absolute;
-    left: calc(50% + 548.939px);
-    transform: translateX(-50%);
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 768px) {
+    .special-button {
+        padding: 12px;
+        font-size: 14px;
+    }
 }
