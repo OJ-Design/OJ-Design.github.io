@@ -1,3 +1,4 @@
+I have issues with my layout - I want each section to work essentiaally as a static portfolio page, centered in the view port, responsive with an ideal side margins and minimum allowed top and bottom margins:
 /*Thing to fix: JS scrolling issue, alignment of the back to top arrow*/
 
 * {
@@ -47,17 +48,13 @@ body {
     letter-spacing: -0.01em; /* -10 * 1/1000em */
     font-size: 1.09vw; /* Set the font size as a percentage of the viewport width */
     line-height: 1.34vw;
+    margin-left: 14.2vw;
+    margin-right: 14.2vw;
 }
 
 section {
     height: 100vh;
-    min-height: 50px; /* Set a minimum height, adjust as needed */
-    margin: 20px 14.2vw; /* Set top and bottom margins, adjust as needed */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    margin-bottom: 20px;
 }
 
 .round-icon {
@@ -147,6 +144,3 @@ section {
     text-align: center;
     padding: 5px;
 }
-
-
-
