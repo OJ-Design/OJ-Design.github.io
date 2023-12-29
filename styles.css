@@ -81,7 +81,8 @@ section {
 /* New styles for navigation buttons */
 .special-button {
     display: inline-block;
-    padding: 10px 20px;
+    width: 14.36239583vw; /* Set your desired width */
+    height: 4.341145833vw; /* Set your desired height */
     font-size: 1.25vw; /* Set the font size as a percentage of the viewport width */
     letter-spacing: 0.7em;
     text-decoration: none;
