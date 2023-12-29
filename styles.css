@@ -63,13 +63,19 @@ section {
     margin: 0 auto;
     margin-bottom: 133.5px;
 }
-
-#index nav {
-    text-align: center;
+#index nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%; /* Set a fixed width for the container */
+    text-align: center; /* Center the buttons within the container */
 }
 
-.special-button {
+#index nav li {
     display: inline-block;
+    margin-right: 20px; /* Adjust this value for the desired spacing */
+}
+
+#index .special-button {
     padding: 20px;
     font-size: 24px;
     letter-spacing: 0.7em;
@@ -82,10 +88,11 @@ section {
     transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
-.special-button:hover {
+#index .special-button:hover {
     color: white;
     border: 2px solid white;
 }
+
 
 /* Adjustments for smaller screens */
 @media only screen and (max-width: 768px) {
