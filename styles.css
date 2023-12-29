@@ -67,3 +67,11 @@ section {
     display: block; /* Ensure block-level display */
     margin: 0 auto; /* Center the images horizontally if needed */
 }
+
+#index img {
+    width: 15.4vw; /* Set the icon width as a percentage of the viewport width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure block-level display */
+    margin: 0 auto; /* Center the icon horizontally if needed */
+    margin-bottom: 6.954322917vw;
+}
