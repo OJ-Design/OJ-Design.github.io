@@ -93,7 +93,7 @@ section {
 /* Place the first button 20px to the left of the middle button */
 .special-button:first-child {
     position: absolute;
-    left: calc(50% - 20px);
+    left: calc(50% - 548.939px);
     transform: translateX(-50%);
 }
 
@@ -107,6 +107,6 @@ section {
 /* Place the last button 20px to the right of the middle button */
 .special-button:last-child {
     position: absolute;
-    left: calc(50% + 20px);
+    left: calc(50% + 548.939px);
     transform: translateX(-50%);
 }
