@@ -2,7 +2,7 @@
 
 .index {
   align-items: flex-end;
-  background-color: #262332;
+  background-color: black;
   display: flex;
   flex-direction: column;
   gap: 133px;
