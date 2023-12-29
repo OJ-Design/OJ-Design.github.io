@@ -62,6 +62,7 @@ body {
     margin: 20px; /* Adjust the margin based on your design */
     padding: 20px; /* Adjust the padding based on your design */
     border: 1px solid #ccc; /* Add borders or other styling as needed */
+    margin-bottom: 20px;
 }
 
 .round-icon {
