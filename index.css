@@ -71,12 +71,15 @@ body {
   transition: color 0.3s ease, border 0.3s ease; /* Add transition for a smooth effect */
 }
 
-.index .special_button:hover,
+.index .special_button:hover{
+  border: 2px solid white;
+}
+
+
 .index .special_button:hover .profile_text_button,
 .index .special_button:hover .projects_text_button,
 .index .special_button:hover .contact_text_button {
   color: white;
-  border: 2px solid white;
 }
 
 .index ._button_flex_align {
