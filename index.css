@@ -49,18 +49,20 @@ body {
   line-height: 84px; /* Center vertically */
   text-align: center;
   white-space: nowrap;
+  font-family: "FuturaPT-Book", Helvetica;
+  font-size: 24px;
+  color: var(--smashed-pumpkin);
 }
 
 
 .index .special_button {
-  background-color: black;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  color: white;
   border-radius: 41.67px;
   height: 84px;
   position: relative;
-  width: 277px;
-  border: 1px solid;
-  border-color: var(--smashed-pumpkin);
-  height: 84px;
   width: 277px;
 }
 
