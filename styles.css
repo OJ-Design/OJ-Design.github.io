@@ -80,8 +80,8 @@ section {
 /* New styles for navigation buttons */
 .special-button {
     display: inline-block;
-    padding: 32px; 
-    font-size: 24px;
+    padding: 20px; /* Use absolute padding value */
+    font-size: 18px; /* Use absolute font size value */
     letter-spacing: 0.7em;
     text-decoration: none;
     text-transform: uppercase;
@@ -104,16 +104,22 @@ section {
     align-items: center;
 }
 
+/* Spacing between buttons using margin */
 .special-button:not(:last-child) {
-    margin-right: 273.182px; /* Spacing on each side of the button */
-}
-
-.special-button:not(:first-child) {
-    margin-left: 273.182px; /* Spacing on each side of the button */
+    margin-right: 20px; /* Use absolute margin value */
 }
 
 /* Center-align the middle button */
 .special-button:nth-child(2) {
     margin-right: 0;
-    margin-left: 0;
 }
+
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 768px) {
+    .special-button {
+        padding: 12px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
+        margin-right: 12px; /* Adjust margin for smaller screens */
+    }
+}
+
