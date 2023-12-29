@@ -43,6 +43,7 @@ body {
   min-width: 276px;
 }
 
+/* This finally worked! */
 .index .profile_text_button,
 .index .projects_text_button,
 .index .contact_text_button {
