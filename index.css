@@ -1,5 +1,3 @@
-/* screen - index */
-
 body {
   margin: 0;
   background: #262332;
@@ -11,6 +9,9 @@ body {
   justify-content: center; /* Center horizontally */
   min-height: 100vh; /* Ensure full viewport height */
 }
+
+/* code for the index section!! */
+/* !!! */
 
 .index {
   background-color: black;
@@ -44,6 +45,25 @@ body {
   min-width: 276px;
 }
 
+.index .special_button {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  color: var(--smashed-pumpkin);
+  border: 1px solid var(--smashed-pumpkin);
+  border-radius: 41.67px;
+  height: 84px;
+  position: relative;
+  width: 277px;
+  transition: color 0.3s ease, border 0.3s ease; /* Add transition for a smooth effect */
+}
+
+
+.index .special_button:hover{
+  border: 2px solid white;
+}
+
+
 /* This finally worked! */
 .index .profile_text_button,
 .index .projects_text_button,
@@ -58,24 +78,6 @@ body {
   margin-right: calc(-0.35em); /* Move to the right by half of the letter-spacing value */
   transition: color 0.3s ease; /* Add transition for a smooth effect */
 }
-
-.index .special_button {
-  display: flex;
-  align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
-  color: var(--smashed-pumpkin);
-  border: 1px solid var(--smashed-pumpkin);
-  border-radius: 41.67px;
-  height: 84px;
-  position: relative;
-  width: 277px;
-  transition: color 0.3s ease, border 0.3s ease; /* Add transition for a smooth effect */
-}
-
-.index .special_button:hover{
-  border: 2px solid white;
-}
-
 
 .index .special_button:hover .profile_text_button,
 .index .special_button:hover .projects_text_button,
