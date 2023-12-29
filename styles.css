@@ -47,13 +47,17 @@ body {
     letter-spacing: -0.01em; /* -10 * 1/1000em */
     font-size: 1.09vw; /* Set the font size as a percentage of the viewport width */
     line-height: 1.34vw;
-    margin-left: 14.2vw;
-    margin-right: 14.2vw;
 }
 
 section {
     height: 100vh;
-    margin-bottom: 20px;
+    min-height: 50px; /* Set a minimum height, adjust as needed */
+    margin: 20px 14.2vw; /* Set top and bottom margins, adjust as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }
 
 .round-icon {
