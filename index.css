@@ -1,5 +1,12 @@
 /* screen - index */
 
+.container-center {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  min-height: 100vh; /* Ensure full viewport height */
+}
+
 .index {
   align-items: flex-end;
   background-color: black;
