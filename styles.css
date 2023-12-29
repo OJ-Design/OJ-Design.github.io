@@ -98,7 +98,6 @@ section {
 #back-to-top {
   position: fixed;
   bottom: 12.43722222vh;
-  right: 0vw; /* Center horizontally */
   transform: translateX(-50%); /* Move back by half of its width */
   display: none;
   border: none;
