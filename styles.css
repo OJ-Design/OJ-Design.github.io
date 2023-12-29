@@ -75,6 +75,10 @@ section {
     margin-right: 20px; /* Adjust this value for the desired spacing */
 }
 
+#index nav li:last-child {
+    margin-right: 0; /* Remove the margin after the latest button */
+}
+
 #index .special-button {
     padding: 20px;
     font-size: 24px;
@@ -92,6 +96,7 @@ section {
     color: white;
     border: 2px solid white;
 }
+
 
 
 /* Adjustments for smaller screens */
