@@ -70,6 +70,25 @@ section {
     height: 100vh; /* This ensures the section takes up the full height of the viewport */
 }
 
+/* New styles for navigation buttons */
+.special-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 6px; /* Adjust letter spacing as needed */
+    color: #F26A38; /* Olivier Orange */
+    background-color: transparent;
+    border: 2px solid #F26A38; /* Olivier Orange */
+    border-radius: 100px;
+    transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.special-button:hover {
+    color: white;
+    border: 2px solid white; /* Specify the border width, style, and color on hover */
+}
+
 
 #index nav ul {
     list-style-type: none;
