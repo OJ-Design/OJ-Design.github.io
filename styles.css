@@ -134,15 +134,15 @@ section {
 }
 
 
-
 #copyright {
     font-family: 'FuturaPTLight';
     background-color: transparent;
     position: fixed;
     bottom: 0;
-    width: 50%;
+    width: 100%; /* Set it to 100% to take up the entire width */
     text-align: center;
     padding: 5px;
 }
+
 
 
