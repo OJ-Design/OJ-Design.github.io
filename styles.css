@@ -68,10 +68,17 @@ section {
     text-align: center;
 }
 
+#index nav {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
 .special-button {
     display: inline-block;
     padding: 20px;
-    font-size: 24px;
+    font-size: 18px;
     letter-spacing: 0.7em;
     text-decoration: none;
     text-transform: uppercase;
@@ -80,6 +87,7 @@ section {
     border: 2px solid #F26A38;
     border-radius: 1000px;
     transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
+    position: relative;
 }
 
 .special-button:hover {
@@ -87,18 +95,20 @@ section {
     border: 2px solid white;
 }
 
-#index nav {
-    text-align: center;
+.special-button:first-child {
+    margin-left: 20px;
 }
 
-.special-button:not(:last-child) {
+.special-button:last-child {
     margin-right: 20px;
 }
 
 .special-button:nth-child(2) {
-    margin-right: 0;
+    margin: 0 auto; /* Center the middle button horizontally */
+    position: static; /* Remove absolute positioning for the middle button */
 }
 
+/* Adjustments for smaller screens */
 @media only screen and (max-width: 768px) {
     .special-button {
         padding: 12px;
