@@ -14,7 +14,6 @@ body {
 
 .index {
   align-items: flex-end;
-  background-color: black;
   display: flex;
   flex-direction: column;
   gap: 133px;
