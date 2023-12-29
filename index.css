@@ -42,14 +42,6 @@ body {
   min-width: 276px;
 }
 
-.index .profile_-container {
-  border-radius: 41.67px;
-  height: 84px;
-  margin-top: -0.5px;
-  position: relative;
-  width: 277px;
-}
-
 .index .profile_text_button {
   left: 40px;
   letter-spacing: 16.80px;
@@ -71,14 +63,6 @@ body {
   width: 277px;
 }
 
-.index .project_-container {
-  border-radius: 41.67px;
-  height: 84px;
-  margin-top: -0.5px;
-  position: relative;
-  width: 277px;
-}
-
 .index .project_text_button {
   left: 32px;
   letter-spacing: 16.80px;
@@ -89,7 +73,7 @@ body {
   white-space: nowrap;
 }
 
-.index .contact_-container {
+.index .special_button {
   border-radius: 41.67px;
   height: 84px;
   margin-top: -0.5px;
