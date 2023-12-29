@@ -53,6 +53,7 @@ body {
   text-align: center;
   white-space: nowrap;
   color: var(--smashed-pumpkin);
+  margin-right: calc(-0.35em); /* Move to the right by half of the letter-spacing value */
 }
 
 
