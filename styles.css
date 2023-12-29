@@ -74,6 +74,7 @@ section {
 .special-button {
     display: inline-block;
     padding: 10px 20px;
+    font-size: 1.25vw; /* Set the font size as a percentage of the viewport width */
     text-decoration: none;
     text-transform: uppercase; /* Convert text to uppercase */
     letter-spacing: 6px; /* Adjust letter spacing as needed */
