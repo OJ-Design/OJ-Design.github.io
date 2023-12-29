@@ -81,34 +81,39 @@ section {
 .special-button {
     display: inline-block;
     padding: 32px; 
-    font-size: 24px; /* Set the font size as a percentage of the viewport width */
-    margin-right: 273.182px;
+    font-size: 24px;
     letter-spacing: 0.7em;
     text-decoration: none;
-    text-transform: uppercase; /* Convert text to uppercase */
-    color: #F26A38; /* Olivier Orange */
+    text-transform: uppercase;
+    color: #F26A38;
     background-color: transparent;
-    border: 2px solid #F26A38; /* Olivier Orange */
+    border: 2px solid #F26A38;
     border-radius: 1000px;
     transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
-.special-button:last-child {
-    margin-right: 0; /* Remove margin from the last button to avoid extra spacing */
-}
-
 .special-button:hover {
     color: white;
-    border: 2px solid white; /* Specify the border width, style, and color on hover */
+    border: 2px solid white;
 }
 
 /* Flex container for the navigation list */
 #index nav {
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap; /* Prevent buttons from wrapping */
+    align-items: center;
 }
 
+.special-button:not(:last-child) {
+    margin-right: 273.182px; /* Spacing on each side of the button */
+}
 
+.special-button:not(:first-child) {
+    margin-left: 273.182px; /* Spacing on each side of the button */
+}
 
-
+/* Center-align the middle button */
+.special-button:nth-child(2) {
+    margin-right: 0;
+    margin-left: 0;
+}
