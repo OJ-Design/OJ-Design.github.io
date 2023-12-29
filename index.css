@@ -43,7 +43,7 @@ body {
 }
 
 .index .profile_text_button,
-.index .project_text_button,
+.index .projects_text_button,
 .index .contact_text_button {
   left: 50%; /* Center horizontally */
   transform: translateX(-50%);
