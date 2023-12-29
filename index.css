@@ -46,11 +46,12 @@ body {
 .index .profile_text_button,
 .index .projects_text_button,
 .index .contact_text_button {
+  font-family: "FuturaPT-Book", Helvetica;
+  font-size: 24px;
+  letter-spacing: 0.7em;
   line-height: 84px; /* Center vertically */
   text-align: center;
   white-space: nowrap;
-  font-family: "FuturaPT-Book", Helvetica;
-  font-size: 24px;
   color: var(--smashed-pumpkin);
 }
 
