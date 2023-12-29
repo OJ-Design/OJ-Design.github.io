@@ -1,3 +1,5 @@
+/*Thing to fix: JS scrolling issue, alignment of the back to top arrow*/
+
 * {
     image-rendering: -webkit-optimize-contrast; /* Safari and Chrome */
     image-rendering: -moz-crisp-edges; /* Firefox */
