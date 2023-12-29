@@ -68,6 +68,7 @@ section {
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure block-level display */
     margin: 0 auto; /* Center the icon horizontally if needed */
+    margin-bottom: 6.954322917vw;
 }
 
 #index {
