@@ -41,106 +41,18 @@ html {
 }
 
 body {
-    background-color: #262332;
-    color: #ffffff;
-    font-family: 'FuturaPTBook'; /* Use one of the defined font families */
-    font-weight: normal; /* Ensure consistent font weight for the entire document */
-    letter-spacing: -0.01em; /* -10 * 1/1000em */
-    font-size: 1.09vw; /* Set the font size as a percentage of the viewport width */
-    line-height: 1.34vw;
-    margin-left: 14.2vw;
-    margin-right: 14.2vw;
-}
-
-section {
-    height: 100vh;
-    margin-bottom: 20px;
-}
-
-.round-icon {
-    width: 17.91661458vw;
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure block-level display */
-    margin: 0 auto; /* Center the images horizontally if needed */
-}
-
-#index img {
-    width: 15.4vw; /* Set the icon width as a percentage of the viewport width */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure block-level display */
-    margin: 0 auto; /* Center the icon horizontally if needed */
-    margin-bottom: 6.954322917vw;
-}
-
-#index {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 100vh; /* This ensures the section takes up the full height of the viewport */
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
-/* New styles for navigation buttons */
-.special-button {
-    display: inline-block;
-    padding: 1.7vw; 
-    font-size: 1.25vw; /* Set the font size as a percentage of the viewport width */
-    letter-spacing: 0.7em;
-    text-decoration: none;
-    text-transform: uppercase; /* Convert text to uppercase */
-    color: #F26A38; /* Olivier Orange */
-    background-color: transparent;
-    border: 2px solid #F26A38; /* Olivier Orange */
-    border-radius: 100px;
-    transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
-}
-
-.special-button:hover {
-    color: white;
-    border: 2px solid white; /* Specify the border width, style, and color on hover */
-}
-
-
-
-/* distibute project icons */
-#projects ul {
-    list-style-type: none; /* Remove default list styles */
-    padding: 0; /* Remove default padding */
-    display: flex; /* Use flexbox to arrange items horizontally */
-}
-
-#projects li {
-    margin-right: 20px; /* Add spacing between list items if desired */
-}
-
-/* this is the upwards arrow */
-#back-to-top {
-  position: fixed;
-  bottom: 12.43722222vh;
-  right: 14.2vw; /* Align with the right-hand side of the viewport excluding body margins */
-  transform: translateX(-50%); /* Center horizontally */
-  display: none;
-  border: none;
-  background: none;
-  padding: 0;
-  margin: 0;
-  outline: none;
-}
-
-
-#back-to-top img {
-  width: 4.341145833vw;
-  height: auto;
-  outline: none;
-}
-
-
-#copyright {
-    font-family: 'FuturaPTLight';
-    background-color: transparent;
-    position: fixed;
-    bottom: 0;
-    width: 100%; /* Set it to 100% to take up the entire width */
-    text-align: center;
-    padding: 5px;
+.section {
+    width: 80%; /* Adjust this value based on your design */
+    max-width: 600px; /* Set a maximum width if needed */
+    margin: 20px; /* Adjust the margin based on your design */
+    padding: 20px; /* Adjust the padding based on your design */
+    border: 1px solid #ccc; /* Add borders or other styling as needed */
 }
