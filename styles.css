@@ -46,7 +46,7 @@ body {
     font-family: 'FuturaPTBook'; /* Use one of the defined font families */
     font-weight: normal; /* Ensure consistent font weight for the entire document */
     letter-spacing: -0.01em; /* -10 * 1/1000em */
-    font-size: 1.09vw; /* Set the font size as a percentage of the viewport width */
+    font-size: 21px;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -71,11 +71,11 @@ section {
 }
 
 #index img {
-    width: 15.4vw; /* Set the icon width as a percentage of the viewport width */
+    width: 343.999px;
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure block-level display */
     margin: 0 auto; /* Center the icon horizontally if needed */
-    margin-bottom: 6.954322917vw;
+    margin-bottom: 133.5px;
 }
 
 #index {
