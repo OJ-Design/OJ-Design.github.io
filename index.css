@@ -1,5 +1,10 @@
 /* screen - index */
 
+body {
+  margin: 0;
+  background: #262332;
+}
+
 .container-center {
   display: flex;
   align-items: center; /* Center vertically */
