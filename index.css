@@ -64,6 +64,9 @@ body {
   height: 84px;
   position: relative;
   width: 277px;
+  border: 1px solid;
+  border-color: var(--smashed-pumpkin);
+  border-radius: 41.67px;
 }
 
 .index ._button_flex_align {
