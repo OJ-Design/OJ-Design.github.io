@@ -106,8 +106,8 @@ section {
 #index nav {
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap; /* Prevent buttons from wrapping */
 }
-
 
 
 
