@@ -52,6 +52,7 @@ section {
     position: absolute;
     top: 50%;
     left: 50%;
+    margin: 0; /* Ensure no default margin */
     transform: translate(-50%, -50%);
 }
 
