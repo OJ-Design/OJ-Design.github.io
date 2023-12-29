@@ -92,7 +92,7 @@ body {
   white-space: nowrap;
 }
 
-.index ._button-1 {
+.index ._button_flex_align {
   align-items: center;
   display: flex;
 }
