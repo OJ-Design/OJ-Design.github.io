@@ -6,6 +6,7 @@ body {
 }
 
 .container-center {
+  background-color: black;
   display: flex;
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
