@@ -12,19 +12,21 @@ body {
 
 .screen {
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+
 }
 
 /* code for the index section!! */
 /* !!! */
 
-.index {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center horizontally */
+.index, .profile, .projects {
   gap: 133px;
   height: 1080px;
-  padding: 134.0px 273.2px;
   width: 1920px;
+  padding: 134.0px 273.2px;
+  margin-bottom: 10vh; /* Add margin to the bottom */
 }
 
 .index .website_-homepage-scroll_-logo {
