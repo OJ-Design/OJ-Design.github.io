@@ -81,7 +81,7 @@ section {
 
 /* New styles for navigation buttons */
 .special-button {
-    display: inline-block;
+    display: block;
     padding: 1.7vw; 
     font-size: 1.25vw; /* Set the font size as a percentage of the viewport width */
     letter-spacing: 0.7em;
